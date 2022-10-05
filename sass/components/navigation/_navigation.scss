@@ -1,3 +1,22 @@
+// This is where you style the nav-bar //
+.site-header {
+	display: inline-flexbox;
+	height:auto;
+	width: auto;
+	background-color: #ffffff;
+	text-align: right; 
+}
+// Style the logo //
+.site-branding {
+	//display: inline-flex;
+	height: 100px;
+	width: 100px;
+	padding-top: 50px;
+}
+.menu .nav-menu {
+
+}
+
 .main-navigation {
 	display: block;
 	width: 100%;
@@ -7,6 +26,7 @@
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+		//float:right;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -56,14 +76,23 @@
 		&.focus > a {
 		}
 	}
+// style the nav-bar here ** Any styling you want to add to the links themselves you do it here. //
 
 	a {
-		display: block;
 		text-decoration: none;
+		font-size: 25px;
+		color: #000000;
+		&:hover{
+			color: blue;
+		}
+		&:active{
+			color: red;
+		}
+
 	}
 
 	.current_page_item > a,
-	.current-menu-item > a,
+	.current-menu-item > a, 
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
 	}
@@ -81,9 +110,10 @@
 		display: none;
 	}
 
-	.main-navigation ul {
-		display: flex;
-	}
+	 .main-navigation ul {
+	 	display: inline-flex;
+	 
+	 }
 }
 
 .comment-navigation,

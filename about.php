@@ -7,5 +7,6 @@
 	*/
 ?>
 <?php get_header(); ?>
-	<!-- code goes here -->
+<p class="para">this falls on the about page</p>
 <?php get_footer();?>
+

@@ -7,5 +7,7 @@
 	*/
 ?>
 <?php get_header(); ?>
-	<!-- code goes here -->
+<p class="para">Content for Homepage goes here!</p>
 <?php get_footer();?>
+
+

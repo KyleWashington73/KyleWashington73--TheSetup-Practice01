@@ -7,5 +7,6 @@
 	*/
 ?>
 <?php get_header(); ?>
-	<!-- code goes here -->
+<p class="para">Contact page content goes here</p>
 <?php get_footer();?>
+
